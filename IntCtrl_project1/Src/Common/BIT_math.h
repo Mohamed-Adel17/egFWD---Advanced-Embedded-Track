@@ -25,7 +25,7 @@
 											}
 */
 #define SET_BITS_VALUE(reg,start,len,value) {\
-																							reg &= ~((u32)((1<<len)-1)<<start); \
-																						  reg |= (value<<start); \
-																					  }
+												reg &= ~((u32)((1<<len)-1)<<start); \
+												reg |= (value<<start); \
+										    }
 #endif /* BIT_MATH_H_ */										
