@@ -29,10 +29,6 @@
 #define APINT_R    *((volatile u32*)(PERIPHERALS_BASE_ADDRESS+0xD0C))
 
 
-#define VECTKEY_START 16
-#define VECTKEY_LEN   16
-#define VECTKEY_VALUE 0x05FA
-
 #define PRIGROUP_START 8
 #define PRIGROUP_LEN   3
 

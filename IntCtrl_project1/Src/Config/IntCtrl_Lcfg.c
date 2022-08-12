@@ -33,11 +33,7 @@ void IntCtrl_Config(IntCtrl_Types Type, IntCtrl_Mode Mode, u8 PriLevel)
 			case 3:
 				ptr_n = ((volatile IntCtrl_Pri*)(PERIPHERALS_BASE_ADDRESS + PRI_OFFSET + temp_Type));
 				ptr_n->INTD = PriLevel;
-				break;
-			//case 4:
-				//ptr_n = ((volatile IntCtrl_Pri*)(PERIPHERALS_BASE_ADDRESS + PRI_OFFSET + temp_Type));
-				//ptr_n->INTD = PriLevel;
-				//break;				
+				break;				
 		}
 	}
 	volatile u32 *ptr = NULL;
