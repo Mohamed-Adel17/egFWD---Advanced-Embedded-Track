@@ -24,4 +24,4 @@
 												reg |= (value<<start); \
 											}
 
-#endif /* BIT_MATH_H_ */
+#endif /* BIT_MATH_H_ */										
